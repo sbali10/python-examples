@@ -37,10 +37,10 @@
 
 #print(result)
 
-###############
+#####################################################################################################
 
-numbers = [1, 3, 5.6, 0, -2]
-letters = ['a', 'bkc', 'de', 'merhaba']
+#numbers = [1, 3, 5.6, 0, -2]
+#letters = ['a', 'bkc', 'de', 'merhaba']
 
 #val = max(numbers)
 #val = min(numbers)
@@ -49,6 +49,56 @@ letters = ['a', 'bkc', 'de', 'merhaba']
 #val = max(letters)
 #val = min(letters)
 
+#numbers.append(10)  #liste sonuna değeri ekler
+#numbers.insert(3, 21)  #3. değerden sonra 21 i ekler(0 dan başla sayamaya)
+#numbers.insert(-1, 555) #sondan bir önceki sıraya 555 i ekler listede
+
+#numbers.pop(2)  #2.indexteki elemanı siler
+#numbers.remove(3)   #3 ü listeden siler(elemanı direk listeden silme)
+
+#numbers.sort()  #listedeki indexleri sıralar
+#numbers.reverse()  #listeyi terse çevirir
+#print(len(numbers)) #eleman sayısını yazdırır
+#print(numbers.count(9))   #listede kaç adet 9 elemanı var bakar
+
+#print(numbers)
 
 
-print(val)
+############################################################################################################
+
+names = ['Ali','Yağmur','Hakan','Deniz']
+years = [1998, 2000, 1998, 1987]
+
+#names.append('Cenk')     #Cenk'i listenin sonuna ekler
+
+#names.insert(0, 'Sena')     #Sena'yı listenin başına ekler
+
+#names.remove('Deniz')       #Deniz'i listeden uçurur
+
+#d = names.index('Deniz')    #Deniz'index(listedeki konum nosu) nosunu verir
+#print(d)
+
+#result = 'Ali' in names      #Ali listenin bir elemanı mı diye kontrol eder
+#print(result)
+
+#names.reverse()              #liste elemanlarını ters çevirir
+
+#names.sort()                  #elemanları alfabetik sıralar
+
+#str = "Chevrolet,Dacia"  
+#result = str.split(',')        #string ifadeyi listeye çevirir
+#print(result)
+
+#min = min(years)
+#print(min)                       #listenin en küçük elemanını yazdırır
+#max = max(years)
+#print(max)                       #listenin en büyük elemanını yazdırır
+
+#result = years.count(1998)        #1998 ifadesi listede kaç kere var onu yazdırır
+#print(result)
+
+#years.clear()                       #years listesinin temizler
+
+
+
+#print(names)
