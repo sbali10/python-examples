@@ -29,17 +29,17 @@ if select == 1:
     }
 
     idk = input('Entry student number: ')   #öğrenci no girdirdik
-    stud = student[idk]               # öğrenci no'suna ait tablodaki index bulundu
+    idk = int(idk)
+    if 120<idk<123 :
+        idk = str(idk)
+        stud = student[idk]               # öğrenci no'suna ait tablodaki index bulundu
+        print('*'*50)                          
+        print(f"The name of your student is {((stud)['name'])} and surname is {((stud)['surname'])}. Contact number of your student is {((stud)['phone'])}")
+        print('*'*50)
     
-    
-    #print(stud)                          #girilen öğrenci noya ait tüm bilgiler yazdırılı
-    print('*'*50)                          
-    print(f"The name of your student is {((stud)['name'])} and surname is {((stud)['surname'])}. Contact number of your student is {((stud)['phone'])}")
-    print('*'*50)
-    
-
-
-
+    else:
+        print("Select 2 on start and create user profile")
+        
 
 elif select == 2:
 
