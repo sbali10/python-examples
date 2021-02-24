@@ -93,5 +93,4 @@ if days <= 730:
 elif days > 730 and days < 1095:
     print("3 yıl doldu 2. kez servise")
 
-
 '''
