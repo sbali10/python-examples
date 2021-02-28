@@ -23,4 +23,24 @@ def total(num1,num2):       #İki sayıyıyı toplayan fonskiyon
 result = total(10,20)
 print(result)
 
+
+def add(*params):                   #Girilen tüm parametleri toplama
+    print(type(params))             #(tuple listesi geleceğinden *(tek yıldız) kullandık)
+    print(params)
+    return sum((params))
+
+print(add(10,20))
+print(add(10,20,30))
+print(add(10,20,30,40,50))
+
+
+
+def displayUser(**params):
+    print(type(params))           # (dictionary geleceğinden **(iki yıldız) kullandık)
+    for key, value in params.items():
+        print("{} is {} ".format(key,value))
+
+displayUser(name= "Serhat", age= 27, city= "Izmir")
+displayUser(name= "Baran", age= 23, city= "Izmir", phone= 5512318)
+
 '''
