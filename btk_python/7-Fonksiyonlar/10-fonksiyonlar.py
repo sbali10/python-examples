@@ -100,3 +100,4 @@ def tamBolen(sayi):                          #herhangi bir sayının tam bölenl
 print(tamBolen(20))
 
 '''
+
