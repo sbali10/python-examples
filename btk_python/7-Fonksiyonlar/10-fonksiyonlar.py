@@ -69,5 +69,34 @@ result = listeOlustur(2, 3, 5, "a")
 print(result)
 
 ###############################################################################################################
-'''
 
+
+sayi1 = int(input("sayi1: "))            #aralıktaki asal sayı bulma
+sayi2 = int(input("sayi2: "))
+
+def asalBul(sayi1, sayi2):
+    for sayi in range(sayi1, sayi2):
+        if sayi1 > 1:
+            for i in range(2, sayi):
+                if (sayi % i == 0):
+                    break
+            else:
+                print(sayi)
+
+asalBul(sayi1, sayi2)
+
+###############################################################################################################
+
+
+def tamBolen(sayi):                          #herhangi bir sayının tam bölenlerini bulma
+    tamBolenler = []
+
+    for i in range(2, sayi):
+        if (sayi % i == 0):
+            tamBolenler.append(i)
+
+    return tamBolenler
+
+print(tamBolen(20))
+
+'''
