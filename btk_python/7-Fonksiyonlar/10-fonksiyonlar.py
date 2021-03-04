@@ -99,5 +99,17 @@ def tamBolen(sayi):                          #herhangi bir sayının tam bölenl
 
 print(tamBolen(20))
 
-'''
 
+x = 50 
+
+def test():
+    global x                                #global değişken kullanıldı
+    print(f"x : {x}")
+
+    x = 100
+    print(f"changed x to {x}")
+
+test()
+print(x)
+
+'''
