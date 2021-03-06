@@ -4,6 +4,6 @@ node {
         echo "build done"
         
         stage "deploy to qa"
-        echo "qa deployment compltede"
+        echo "qa deployment completed"
     }
 }
