@@ -1,5 +1,5 @@
-#ctrl + k + c   seçili herşeyi yorum satırı yapar
-#ctrl + k + u seçili herşeyden yorum satırını kaldırır
+# ctrl + k + c   seçili herşeyi yorum satırı yapar
+# ctrl + k + u seçili herşeyden yorum satırını kaldırır
 
 
 # #class  -> Person (name, surname, birthday, calculateAge())       Person: classımız içerisinde objeler var ve calculateAge() metodumuz var   (örneğin : ahmet için ahmet.calculateAge() çağrılır)
@@ -57,8 +57,8 @@
 
 
 
-####################################################################################################################################################
-#alan ve çevre hesaplama
+# ###################################################################################################################################################
+# alan ve çevre hesaplama
 
 # class Circle:
 #     #class object attribitu
