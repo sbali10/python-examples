@@ -30,9 +30,21 @@ import random
 #result = int(random.uniform(1,10))   # verilen aralıkta tamsayı üretir, virgülden sonrasını atar
 #result = random.randint(10,21)   # verilen aralıkta tamsayı üretir
 
+
+
 names = ["ali","veli","selami"]
-result = names[random.randint(0,len(names)-1)]
+# result = names[random.randint(0,len(names)-1)]    #names içerisine girilen değer sayısı farketmeksizin random yazdırır
+# result = random.choice(names)                      #liste içerisinde random değer seçer ve yazdırır
 
 
 
+# liste = list(range(10))   #0-10 arası liste oluşturur
+# random.shuffle(liste)    #listedeki değerleri ratgele sıralar
+# result = liste   
+
+
+
+liste = range(100)
+#result = random.sample(liste, 3)         #liste içerisinde random 3 değer getirir
+result = random.sample(names, 2)          #names içerisinde rastgele 2 değeri yazdırır
 print(result)
