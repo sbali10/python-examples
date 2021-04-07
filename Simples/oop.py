@@ -1,7 +1,3 @@
-# ctrl + k + c   seçili herşeyi yorum satırı yapar
-# ctrl + k + u seçili herşeyden yorum satırını kaldırır
-
-
 # #class  -> Person (name, surname, birthday, calculateAge())       Person: classımız içerisinde objeler var ve calculateAge() metodumuz var   (örneğin : ahmet için ahmet.calculateAge() çağrılır)
 
 # #object = instance

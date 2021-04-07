@@ -1,8 +1,8 @@
-docker build -f Dockerfile -t testflaskapp:latest .   -> ile imajı build ederiz
+docker build -f Dockerfile -t testflaskapp:latest .   -> build your image
 
-docker run -p 5000:5000 --rm testflaskapp    -> ile containerı çalıştırırız
+docker run -p 5000:5000 --rm testflaskapp    -> run your container on 5000 port
 
 docker tag IMAGEAID REPOADI/testflaskapp
 
-docker login                              -> Registrye login olunur
-docker push KULLANICIADI/testflaskapp    -> Image registrye pushlanır
+docker login                              -> login to registry
+docker push KULLANICIADI/testflaskapp    -> ğush your image to registry

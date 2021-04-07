@@ -1,6 +1,6 @@
-Serhat Bali: FF
-Baran Bali: AA
-Celal Bali: CC
+Serhat Trial: FF
+Baran Test: AA
+Celal Deneme: CC
 Deneme Kal: FF
 ort ogr: DD
 kayıtsız oku: DC

@@ -1,7 +1,7 @@
-import mod    #mod.py içeirsinde oluşturduğumuz modülü import ediyoruz
+import mod    #import your module that was created on mod.py
 
 #result = help(mod)
-#result = help(mod.func)   #moduülün functionı hakkındaki bilgilendirme
+#result = help(mod.func)   
 result = mod.number
 result = mod.numbers
 result = mod.person["name"]

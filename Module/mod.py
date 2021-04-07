@@ -1,7 +1,3 @@
-'''
-modül hakkında bilgilendirme
-'''
-
 print("modül eklendi")
 
 number = 10

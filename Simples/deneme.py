@@ -1,4 +1,3 @@
-'''
 #SB deneme class ve method
 
 class Arabalar():
@@ -13,5 +12,3 @@ class Arabalar():
 araba_1 = Arabalar("Ford", "Mustang", "Siyah", "Manuel")
 
 print(araba_1.marka, araba_1.model, araba_1.renk, araba_1.vites)
-
-'''
