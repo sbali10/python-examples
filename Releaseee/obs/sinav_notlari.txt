@@ -1,6 +1,0 @@
-Serhat Bali:85,90,95
-Baran Bali:91,93,95
-Celal Bali:45,90,76
-Deneme Kal:35,23,22
-ort ogr:65,70,55
-kayıtsız oku:67,68,69
